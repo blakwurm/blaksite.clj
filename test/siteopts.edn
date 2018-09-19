@@ -1,0 +1,7 @@
+{:blaksite/title "Teeeeest"
+ :blaksite/name "Testing Site"
+ :blaksite/tagline "Where magic happenings come true!"
+ :blaksite/blogs [{:blaksite/name "Foo's blog about bar"
+                   :blaksite/tagline "Because Bar is bar-none!"
+                   :blaksite/author "Tipsy Widdlebiscuits"
+                   :blaksite/posts "foobar"}]}
