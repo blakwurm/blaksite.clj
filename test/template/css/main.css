@@ -28,18 +28,18 @@ body * {
 	
 }
 
-#sitetitle {
+.sitetitle {
 	padding: 5px;
 	display: inline-block;
 }
 
-#pagetagline {
+.sitetagline {
 	display: inline-block;
 	padding: 5px;
 	padding-top: 1px;
 }
 
-#navbar {
+.navbar {
 	display: block;
 	border-bottom: solid 2px grey;
 	border-top: solid 2px grey;
@@ -47,7 +47,7 @@ body * {
 	padding-bottom: 3px;
 }
 
-#navbar li {
+.navbar li {
 	display: inline;
 	list-style: none;
 }

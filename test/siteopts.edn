@@ -1,7 +1,11 @@
 {:blaksite/title "Teeeeest"
  :blaksite/name "Testing Site"
  :blaksite/tagline "Where magic happenings come true!"
- :blaksite/blogs [{:blaksite/name "Foo's blog about bar"
-                   :blaksite/tagline "Because Bar is bar-none!"
-                   :blaksite/author "Tipsy Widdlebiscuits"
-                   :blaksite/posts "foobar"}]}
+ :blaksite/pages [{:blaksite.page/type :overview
+                   :blaksite.page/title ""
+                   :blaksite.page/subtitle "Who We Are And What You Do"}
+                  {:blaksite.page/type :blog
+                   :blaksite.page/title "Foo's blog about bar"
+                   :blaksite.page/subtitle "Because Bar is bar-none!"
+                   :blaksite.blog/author "Tipsy Widdlebiscuits"
+                   :blaksite.blog/posts "foobar"}]}
