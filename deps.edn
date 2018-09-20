@@ -1,6 +1,6 @@
 {:deps
  {hiccup {:mvn/version "2.0.0-alpha1"}
-  selmer {:mvn/version "1.12.1"}
+  enlive {:mvn/version "1.1.6"}
   markdown-clj {:mvn/version "1.0.2"}
   org.clojure/tools.nrepl {:mvn/version "0.2.12"}
   com.bhauman/rebel-readline  {:mvn/version "0.1.4"}
